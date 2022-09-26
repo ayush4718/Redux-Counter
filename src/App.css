@@ -23,7 +23,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-header input{
+  display: inline-block;
+  width: 25px;
+  cursor: crosshair;
+  
+}
+.Int{
+  background-color: #8cc2d167;
+  display: flex;
+  flex-wrap: wrap;
+}
+.App-header a{
+  display: inline-block;
+  padding: 15px;
+  
+  /* vertical-align: middle; */
+  /* margin-top: 15px; */
+  background-color: #8cc2d167;
+  cursor: pointer;
+}
+.App-header a:hover{
+  box-shadow: 1px 2px #8cc2d167;
+  /* background-color: transparent; */
+  color: aliceblue;
+}
 .App-link {
   color: #61dafb;
 }
